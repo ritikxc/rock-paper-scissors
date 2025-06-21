@@ -1,7 +1,6 @@
 # Rock Paper Scissors Arcade 🎮
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Live Demo](https://img.shields.io/badge/Play-Live_Demo-brightgreen)](YOUR_GITHUB_PAGES_LINK)
-
+[![Live Demo](https://img.shields.io/badge/Play-Now-brightgreen)](https://ritikxc.github.io/rock-paper-scissors/)
 A vanilla JavaScript implementation of the classic game with an adaptive AI opponent.
 
 ## ✨ Features
