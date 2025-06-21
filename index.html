@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - Arcade Edition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>Rock Paper Scissors</h1>
+            <div class="creator">Made by Ritik Guleria</div>
+            <div class="scoreboard">
+                <div>Wins: <span id="wins">0</span></div>
+                <div>Losses: <span id="losses">0</span></div>
+                <div>Ties: <span id="ties">0</span></div>
+            </div>
+        </div>
+
+        <div class="game-content">
+            <div class="result-display">
+                <div id="user-choice" class="choice-display">❓</div>
+                <div id="result-text">CHOOSE YOUR MOVE!</div>
+                <div id="ai-choice" class="choice-display">❓</div>
+            </div>
+
+            <div class="choices">
+                <button class="choice-btn" data-choice="rock" aria-label="Rock">✊</button>
+                <button class="choice-btn" data-choice="paper" aria-label="Paper">✋</button>
+                <button class="choice-btn" data-choice="scissors" aria-label="Scissors">✌️</button>
+            </div>
+
+            <div class="game-controls">
+                <button id="history-btn">Show History</button>
+                <button id="reset-btn">Reset Game</button>
+            </div>
+
+            <div id="history-container" class="hidden">
+                <h3>Game History</h3>
+                <ul id="history-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
